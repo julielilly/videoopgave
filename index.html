@@ -6,10 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Vina+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>hello</h1>
+    <header>
+        <nav>
+            <a href="#start_billede">Start</a>
+            <a href="#video">Video</a>
+            <a href="#billeder">Billeder</a>
+        </nav>
+    </header>
+
+    <main>
+        <img id="start_billede" src="img/portrait.webp" alt="portrait">
+
+        <h1 id="video">Video</h1>
+        <div id="video_container">
+            <div id="web_wrapper">
+                <video id="web" src="https://julielilly.dk/kea/05_indhold/01_video/video_1.mp4"></video>
+            </div>
+            <div id="web_wrapper">
+                <video id="web" controls src="https://julielilly.dk/kea/05_indhold/01_video/video_1.mp4"></video>
+            </div>
+        </div>
+        <div id="text_container">
+            <p>Kasper Grønne er en ung, nyuddannet programmør, der i dette OneMinuteWonder fortæller om, hvorfor netop
+                dette er hans passion, og hvordan det startede en karriere for ham. </p>
+        </div>
+
+        <h1 id="billeder">Billeder</h1>
+        <div id="billeder_container">
+            <img src="img/hojformat.webp" alt="keyboard">
+            <img src="img/layout.png" alt="layoutdiagram">
+            <img src="img/bredformat.webp" alt="programmør">
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Lavet af Julie Gyldenløve</p>
+    </footer>
+
 </body>
 
 </html>
