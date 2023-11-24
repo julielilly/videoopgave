@@ -71,7 +71,8 @@ a {
   border-radius: 0.5rem;
 }
 
-#web_wrapper {
+#web_wrapper,
+#iframe_wrapper {
   position: relative;
   width: 90%;
   margin: 5%;
@@ -80,7 +81,8 @@ a {
   padding-top: 56.25%;
 }
 
-#web {
+#web,
+iframe {
   position: absolute;
   inset: 0;
   height: 100%;
